@@ -17,7 +17,7 @@
 		B1F0E8BA196F2CBC0022B3CC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F0E8B9196F2CBC0022B3CC /* Default@2x.png */; };
 		B1F0E8BC196F2CBC0022B3CC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F0E8BB196F2CBC0022B3CC /* Default-568h@2x.png */; };
 		B1F0E8BF196F2CBC0022B3CC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F0E8BD196F2CBC0022B3CC /* MainStoryboard.storyboard */; };
-		B1F0E8C2196F2CBC0022B3CC /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0E8C1196F2CBC0022B3CC /* CCViewController.m */; };
+		B1F0E8CA196F339B0022B3CC /* CCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F0E8C9196F339B0022B3CC /* CCTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +35,8 @@
 		B1F0E8B9196F2CBC0022B3CC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B1F0E8BB196F2CBC0022B3CC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B1F0E8BE196F2CBC0022B3CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		B1F0E8C0196F2CBC0022B3CC /* CCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
-		B1F0E8C1196F2CBC0022B3CC /* CCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
+		B1F0E8C8196F339B0022B3CC /* CCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTableViewController.h; sourceTree = "<group>"; };
+		B1F0E8C9196F339B0022B3CC /* CCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 				B1F0E8B4196F2CBC0022B3CC /* CCAppDelegate.h */,
 				B1F0E8B5196F2CBC0022B3CC /* CCAppDelegate.m */,
 				B1F0E8BD196F2CBC0022B3CC /* MainStoryboard.storyboard */,
-				B1F0E8C0196F2CBC0022B3CC /* CCViewController.h */,
-				B1F0E8C1196F2CBC0022B3CC /* CCViewController.m */,
+				B1F0E8C8196F339B0022B3CC /* CCTableViewController.h */,
+				B1F0E8C9196F339B0022B3CC /* CCTableViewController.m */,
 				B1F0E8AC196F2CBC0022B3CC /* Supporting Files */,
 			);
 			path = "UITableViewController Challenge Solution";
@@ -176,7 +176,7 @@
 			files = (
 				B1F0E8B2196F2CBC0022B3CC /* main.m in Sources */,
 				B1F0E8B6196F2CBC0022B3CC /* CCAppDelegate.m in Sources */,
-				B1F0E8C2196F2CBC0022B3CC /* CCViewController.m in Sources */,
+				B1F0E8CA196F339B0022B3CC /* CCTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
